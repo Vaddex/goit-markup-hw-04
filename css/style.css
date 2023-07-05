@@ -159,8 +159,9 @@ ol {
   color: #404bbf;
 }
 
-/* main */
-.first-section-style {
+/* hero section */
+
+.first-section-container {
   padding: 188px 0;
   background-color: var(--primary-link-color);
   background-image: linear-gradient(
@@ -176,16 +177,23 @@ ol {
   margin: 0 auto;
 }
 
-/* hero section */
+.hero-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
 .first-section-h-first-style {
+  display: block;
   font-size: 56px;
+
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-
-.first-section-h-box {
   max-width: 496px;
 }
 
