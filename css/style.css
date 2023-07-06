@@ -481,6 +481,10 @@ ol {
   color: var(--bg-btn-color);
 }
 
+.portfolio-hiden-p:hover {
+  transform: translateY(0%);
+}
+
 .portfolio-hidder {
   position: absolute;
   top: 0;
